@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Kitchenware classifyer</h1>
+    </header>
+    <main>
+        <section>
+            <h3>Find and snap the items that come up in your screen</h3>
+            
+        </section>
+        <section>
+            <!-- <img src="images/hamster.jpg" id="image"> -->
+            <script defer src="./js/kitchenware.js"></script>
+            
+            <!-- points earned -->
+            <p>
+                Points: 
+            </p>
+            <!-- item to find -->
+            <p>
+                Find: <br>
+                1. spoon <br>
+                2. fork <br>
+                3. knife
+            </p>
+            <!-- uploaden image -->
+            <label for="file">Upload Image</label>
+            <input type="file" accept="image/*;capture=camera" id="file">
+            <img id="image"/>
+            <!-- correct / wrong -->
+            <p>
+                
+            </p>
+            <!-- next item button -->
+            <button> Next item </button>
+        </section>
+    </main>
+</body>
+</html>
